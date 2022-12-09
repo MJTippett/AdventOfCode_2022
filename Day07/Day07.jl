@@ -8,7 +8,7 @@ end
 
 function main()
     history = []
-    open("C:\\Users\\michael.tippett\\OneDrive - AVEVA Solutions Limited\\Scripts\\Julia\\AdventOfCode_2022\\Day07\\Commandhistory.txt") do file
+    open("Commandhistory.txt") do file
         history = readlines(file)
     end
 

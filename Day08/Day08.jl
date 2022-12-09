@@ -1,6 +1,6 @@
 function main()
     lines = ""
-    open("C:\\Users\\michael.tippett\\OneDrive - AVEVA Solutions Limited\\Scripts\\Julia\\AdventOfCode_2022\\Day08\\Data.txt") do file
+    open("Data.txt") do file
         lines = readlines(file)
     end
 
