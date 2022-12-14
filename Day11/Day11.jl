@@ -30,9 +30,11 @@ function main()
     monkeys[7] = Monkey([79, 51, 83, 88, 93, 76], "old * 3", 2, 0, 6, 0)
     
 
-    # test data lowest common multiple
-    #lcm = 96577
-    lcm = 9699690
+    # Calculate LCM of divisibleby property of each monkey (we're using the fact that they are all prime)
+    lcm = 1
+    for monkey in keys(monkeys)
+        lcm *= monkeys[monkey].divisibleby
+    end
 
     # Part 1: numrounds = 20, decreasefactor = 3
     # Part 2: numrounds = 10000, decreasefactor = 1
