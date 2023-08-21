@@ -1,7 +1,7 @@
 function main()
     lines = ""
     open("Data.txt") do file
-    #open("C:\\Users\\michael.tippett\\OneDrive - AVEVA Solutions Limited\\Scripts\\Julia\\AdventOfCode_2022\\Day13\\TestData.txt") do file
+    #open("TestData.txt") do file
         lines = readlines(file)
     end
 
